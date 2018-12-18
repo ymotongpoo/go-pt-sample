@@ -1,0 +1,11 @@
+% go test -bench . -benchtime=10s                                                                (git:02-bench)
+goos: linux
+goarch: amd64
+BenchmarkFindAllLines1-6              50         281807791 ns/op
+BenchmarkFindAllLines2-6              50         331839654 ns/op
+BenchmarkFindAllLines3-6              50         309591867 ns/op
+BenchmarkFindLines1-6                 20         903078061 ns/op
+BenchmarkFindLines2-6                 20         852434183 ns/op
+BenchmarkFindLines3-6                 10        1050940499 ns/op
+PASS
+ok      _/usr/local/google/home/yoshifumi/src/projects/go-pt-sample/02-bench    95.622s
