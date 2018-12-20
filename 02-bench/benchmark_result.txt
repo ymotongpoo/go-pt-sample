@@ -1,4 +1,4 @@
-% go test -bench . -benchtime=10s                                                                (git:02-bench)
+% go test -bench . -benchtime=10s
 goos: linux
 goarch: amd64
 BenchmarkFindAllLines1-6              50         281807791 ns/op
